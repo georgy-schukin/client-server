@@ -10,3 +10,7 @@ LIBS += -lboost_system -pthread
 SOURCES += \
     server.cpp
 
+exists(../local.pri) {
+    include(../local.pri)
+}
+
