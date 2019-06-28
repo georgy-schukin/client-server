@@ -24,7 +24,7 @@ int main(int argc, char **argv) {
 
         tcp::acceptor acceptor(io_context, tcp::endpoint(tcp::v4(), static_cast<unsigned short>(port)));
 
-        std::cout << "Server listening on " << port << std::endl;
+        std::cout << "Server is listening on " << port << std::endl;
 
         for (;;) {
 

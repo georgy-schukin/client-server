@@ -38,6 +38,7 @@ int main(int argc, char **argv) {
         boost::asio::connect(socket, endpoints);
 
         std::cout << "Connected" << std::endl;
+        std::cout << "Input 'exit' to exit" << std::endl;
 
         while (true) {
             std::cout << "Input message: ";
